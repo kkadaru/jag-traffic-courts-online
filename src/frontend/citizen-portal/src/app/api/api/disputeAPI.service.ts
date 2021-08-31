@@ -32,7 +32,7 @@ import { Configuration }                                     from '../configurat
 })
 export class DisputeAPIService {
 
-    protected basePath = 'https://localhost:6001';
+    protected basePath = ''; //'https://localhost:6001';
     public defaultHeaders = new HttpHeaders();
     public configuration = new Configuration();
     public encoder: HttpParameterCodec;

@@ -58,7 +58,7 @@ export class {{classname}} implements {{classname}}Interface {
 export class {{classname}} {
 {{/withInterfaces}}
 
-    protected basePath = '{{{basePath}}}';
+    protected basePath = ''; //'{{{basePath}}}';
     public defaultHeaders = new HttpHeaders();
     public configuration = new {{configurationClassName}}();
     public encoder: HttpParameterCodec;
