@@ -41,17 +41,16 @@ spec:
               cpu: 100m
               memory: 256Mi
           volumeMounts:
-          - name: configuration-volume
-            mountPath: /usr/share/nginx/html/assets/app.config.json
-            subPath: app.config.json
+            - name: configuration-volume
+              mountPath: /usr/share/nginx/html/assets/app.config.json
+              subPath: app.config.json
           terminationMessagePath: /dev/termination-log
           terminationMessagePolicy: File
-          imagePullPolicy: IfNotPresent
       volumes:
-      - name: configuration-volume
-        configMap:
-          name: citizen-web-configuration
-          defaultMode: 420
+        - name: configuration-volume
+          configMap:
+            name: citizen-web-configuration
+            defaultMode: 420
   triggers:
     - type: ConfigChange
     - type: ImageChange
@@ -63,4 +62,3 @@ spec:
           kind: ImageStreamTag
           namespace: "0198bb-tools"
           name: "citizen-web:dev"
-status: {}

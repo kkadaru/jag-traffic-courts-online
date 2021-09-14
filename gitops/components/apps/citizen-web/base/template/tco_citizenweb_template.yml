@@ -89,8 +89,8 @@ objects:
           "apiBaseUrl": "/api",
           "understandYourTicketLink": "${CM_UNDERSTANDYOURTICKETLINK}",
           "paymentOptionsLink": "${CM_PAYMENTOPTIONSLINK}",
-          "resolutionOptionsLink": "${CM_RESOLUTIONOPTIONSLINK}"
-          "features":{
+          "resolutionOptionsLink": "${CM_RESOLUTIONOPTIONSLINK}",
+          "features": {
             "dispute":true
           }
         }
@@ -146,17 +146,17 @@ objects:
               configMap:
                 name: citizen-web-configuration
                 defaultMode: 420
-    triggers:
-      - type: ImageChange
-      - type: ConfigChange
-        imageChangeParams:
-          automatic: true
-          containerNames:
-            - ${FRONTEND_POD}
-          from:
-            kind: ImageStreamTag
-            namespace: "${OC_NAMESPACE}-tools"
-            name: "${FRONTEND_POD}:${OC_ENV}"
+      triggers:
+        - type: ConfigChange
+        - type: ImageChange
+          imageChangeParams:
+            automatic: true
+            containerNames:
+              - ${FRONTEND_POD}
+            from:
+              kind: ImageStreamTag
+              namespace: "${OC_NAMESPACE}-tools"
+              name: "${FRONTEND_POD}:${OC_ENV}"
     status: {}
 
   ### Citizen Web Service ###
