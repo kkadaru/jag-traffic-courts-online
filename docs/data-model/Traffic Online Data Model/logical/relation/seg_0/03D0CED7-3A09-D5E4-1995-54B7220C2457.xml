@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="03D0CED7-3A09-D5E4-1995-54B7220C2457">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-19 20:53:04 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>64A9E4FC-234B-4EB8-6D8D-EC6C99C94D9D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>30545987-D0B1-46E0-25C1-A1BD52FABD7A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

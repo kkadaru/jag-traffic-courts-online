@@ -1,0 +1,605 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7239016E-81AB-289B-3618-C7B34E42133C" name="ViolationTicket">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:21:05 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="7B3F2BD1-987E-701B-176C-28E072A9533F">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:36:59 UTC</createdTime>
+<comment>Unique system generated identifier</comment>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TicketNumber" id="45E480CA-1CF3-C244-2BAD-51D200C8F63E">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:25:22 UTC</createdTime>
+<comment>The violation ticket number</comment>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedToSurname" id="B778F539-36A6-8955-9F40-592EA29AAA95">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:24:01 UTC</createdTime>
+<comment>The surname or the corporate name to who the violation ticket was issued.</comment>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedToGivenName" id="6B4DC732-D132-00D5-DC46-BA3504E69DF2">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:24:34 UTC</createdTime>
+<comment>The first given name or the corporate name continued to who the violation ticket was issued.</comment>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedToOtherGivenNames" id="0D63B51A-F145-9436-B76D-C3032CCBE9C0">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:36:06 UTC</createdTime>
+<comment>The other given names to who the violation ticket was issued.</comment>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IsYoungPerson" id="79EF0A5D-AB25-E30B-AE23-43D9F5A4F3C3">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:25:02 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DriversLicenceNumber" id="37A07A59-1900-A4F1-4CEF-6BE9AADB11C5">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:25:51 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DriversLicenceProvState" id="0F78175B-AB37-731F-A06B-FEFCFD3EB135">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:26:23 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DriversLicenceYearProduced" id="98DCCDEE-EC52-980A-5167-A38618FE2479">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:26:51 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DriversLicenceYearExpiry" id="D6572FFD-723B-BE98-414E-146408B1935F">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:27:44 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedToGender" id="F202F4D7-7FAE-E395-68D5-C4600B48511C">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:28:18 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedToDateOfBirth" id="F76BC711-5437-1C77-587A-101B4C3E2262">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:28:24 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedToAddress" id="61DCE4F6-4522-ED31-FEE4-2C7834021104">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:28:38 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedToIsChangeOfAddress" id="8C759147-B533-2231-056D-A9BA28989D7C">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:29:29 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedToAddressCity" id="3E7B045E-73C4-BB7C-6CE0-C8514506B5D2">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:29:39 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedToAddressProvince" id="F1CBD6C4-2AFC-159E-FCF9-6E71C9C9F670">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:29:53 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedToAddressPostalCode" id="81B2D38C-0AF5-4A71-F3F7-BED4BDBC3E8F">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:30:08 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedToIsDriver" id="9B8DC613-418B-93FD-A98D-5D5722156F96">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:31:11 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedToIsCyclist" id="67476334-938E-E433-117A-190CEFE65AFA">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:31:51 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedToPedestrain" id="CF9D70A3-04C7-4480-0845-276D7ECF6F2D">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:32:02 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedToIsPassenger" id="8EB16199-9542-1EB3-B297-4E1C03749D6C">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:32:13 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedToIsOwner" id="73B26443-F06A-1EBB-DEEC-961A7846EEE7">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:32:25 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedToIsOther" id="EB40BF46-5418-7186-6F74-6184A1ED2591">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:32:33 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedOnDate" id="D31A9F92-4215-8707-E72B-03042B4AEBAE">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:33:14 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedAtTime" id="98844A3A-ACF0-A3C7-A3CF-AB0A7B8067D7">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:34:18 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedLocation" id="EC56046B-AB87-D5D0-0F15-97623B852E43">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:35:15 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IssuedAtOrNear" id="3C827D0C-A419-36AE-7075-D79B08AA1B05">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:35:39 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Offense_MVA" id="547963F3-3E14-D4EF-8193-71654D23DF81">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:02:15 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Offense_MCA" id="99DA69AC-9C63-4F05-88DE-7B2612C25D6C">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:02:59 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Offense_CTA" id="C4D94AB6-D3F4-F10B-0A14-E612930644CB">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:03:04 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Offense_WLA" id="814F2223-B103-7820-5C43-7503239FDB9D">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:03:09 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Offense_FAA" id="D14D8B17-AC99-B4D8-0A1E-D08025E80028">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:03:15 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Offense_LCA" id="2AD5E1A3-15B1-549D-1CEC-AFAB770B6A3A">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:03:21 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Offense_TCR" id="15CC27BC-53A3-DD7E-5FCF-C2E32BE9B402">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:03:28 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Offense_Other" id="58097BEE-F233-5EAC-FFBE-37155996BF5C">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:03:37 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VehicleProvince" id="7FE8B678-7BCD-1EE4-9ED2-0C6EDA5B199C">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:03:41 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VehicleLicencePlate" id="E1C6DD06-6F9C-DC22-D79C-1AB81D7B5692">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:04:23 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VehicleNscPuj" id="C36A4D13-F82F-69C3-1296-F28C1E3AE1B5">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:05:51 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VehicleNscNumber" id="10AA7F9D-0BEC-2377-35B6-8DEEEC49C0AC">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:06:14 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VehicleRegisteredOwner" id="E14DB616-030B-9718-B94C-1D04C8FD6CB3">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:06:55 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VehicleMake" id="1005602D-3322-FB76-7EB6-6A8D5D02DA3B">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:07:09 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VehicleType" id="BA008BB2-23CF-D72C-99BF-8209A12AE580">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:07:19 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VehicleColour" id="EA185B78-FF8B-8804-71EE-B59BEF377EFD">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:07:25 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VehicleYear" id="279BF7BB-DA39-AF35-5CFD-3CE5690F1EC2">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:07:30 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VehicleInAccident" id="99484AA1-6829-76EE-FDAC-AC5F67B66C5D">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:07:38 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProvincialCourtHearingLocation" id="8BDDDF3B-8049-C6BF-BAE4-BE75B9439E80">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:07:46 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EnforcementOfficerNumber" id="F71A8599-C110-75BB-BA62-A741DC4A052F">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:08:23 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EnforcementOfficerDetachment" id="DE0921A2-9259-9F7A-BD02-4160674E1F82">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:08:52 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="081F1BBD-A5BF-A8C8-1A6E-AECB40856CC5">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:50:07 UTC</createdTime>
+<comment>System generated unique identifier</comment>
+<generatorID>1B6E9943-03C8-79B4-461C-568FE47E8C2C</generatorID>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<referedAttribute>5565EDE0-DBDD-C5EE-4400-44D949C6B263</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30998821-8058-61D5-8BD9-84D9EFF19C84" name="ViolationTicket PK">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:49:38 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

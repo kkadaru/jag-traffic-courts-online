@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Traffic Online Data Model" id="1AC20826-FB16-71FB-0673-399D6BBD9B06" version="3.5">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:18:57 UTC</createdTime>
+<ownerDesignName>traffic-online</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1AC20826-FB16-71FB-0673-399D6BBD9B06</designId>
+</OSDM_Design>

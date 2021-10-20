@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA2654CC-2445-C5D4-4E92-3F726E73D027" name="DisputedCount">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:12:28 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AgreeCommittedOffense" id="6042A724-D7D4-C9D4-3F0B-A47B618FB2BB">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:20:47 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WantToAppearInCourt" id="00087F59-2EEB-86A0-C1D5-12A5F277ECC6">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:25:27 UTC</createdTime>
+<comment>If disputant does not agree they committed the offense, they must appear in court.</comment>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RequestReductionOfTicketedAmount" id="AD0AD854-FF5D-471B-458E-41D08D8987EB">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:19:46 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RequestMoreTimeToPay" id="DF1F35D6-FBEF-3017-4E22-0D06ED07E9AE">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:20:07 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DoNotAgreeCommitteOffense" id="DDD14577-143B-69CF-3686-12280EA6A5DC">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:23:29 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id" id="6CB874CD-B1F8-AD3B-8C62-19D04EE52530">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-19 21:46:04 UTC</createdTime>
+<comment>System generated unique identifier</comment>
+<generatorID>43323B82-4BA4-8AA3-9FBD-273D053B672D</generatorID>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<referedAttribute>5565EDE0-DBDD-C5EE-4400-44D949C6B263</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

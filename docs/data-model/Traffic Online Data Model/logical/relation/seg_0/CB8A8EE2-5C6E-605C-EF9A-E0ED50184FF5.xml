@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ViolationTicketCounts" directorySegmentName="seg_0" id="CB8A8EE2-5C6E-605C-EF9A-E0ED50184FF5">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 22:21:29 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<sourcePk>30998821-8058-61D5-8BD9-84D9EFF19C84</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7239016E-81AB-289B-3618-C7B34E42133C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A9F6D9EF-74D1-069A-08AC-EA13E73EDC69</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

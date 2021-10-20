@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59E7C5AB-5964-F55B-AB47-12FD9489692F" name="DisputeStatementWrittenReasons">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-19 20:55:36 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="C57B5449-1DAF-2BB8-CCCC-1F5BC5FE9205">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-19 21:46:04 UTC</createdTime>
+<comment>System generated unique identifier</comment>
+<generatorID>32B7622C-EE39-6D6D-C001-F65FB69A5957</generatorID>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<referedAttribute>5565EDE0-DBDD-C5EE-4400-44D949C6B263</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="38F0BE91-9D79-4A98-C70A-BDE11DECD4E5" name="DisputeStatementWrittenReasons PK">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-19 20:56:04 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C57B5449-1DAF-2BB8-CCCC-1F5BC5FE9205</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

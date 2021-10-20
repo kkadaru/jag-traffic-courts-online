@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RelatedTicketDispute" directorySegmentName="seg_0" id="1B6E9943-03C8-79B4-461C-568FE47E8C2C">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:16:51 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<sourcePk>326226DF-8311-9BAB-B5FB-BE29DA01A3E2</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>against</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>71C08174-671E-1059-11D8-AA65CDD3505F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7239016E-81AB-289B-3618-C7B34E42133C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

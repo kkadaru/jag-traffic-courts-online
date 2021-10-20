@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DisputedCountToTicketCount" directorySegmentName="seg_0" id="C2CE5949-79C1-0D65-F19D-6A7174CF0889">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-18 23:13:18 UTC</createdTime>
+<ownerDesignName>Traffic Online Data Model</ownerDesignName>
+<engineerTo>
+<item key="023DE133-BA4D-2A8F-06A8-C5AFF67F95E6" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A9F6D9EF-74D1-069A-08AC-EA13E73EDC69</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>EA2654CC-2445-C5D4-4E92-3F726E73D027</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
